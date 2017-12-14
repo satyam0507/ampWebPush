@@ -105,8 +105,13 @@
 <body>
   <!-- AMP Web Push Extension Configuration -->
 
-  <amp-web-push id="amp-web-push" layout="nodisplay" helper-iframe-url="https://saltypeak.os.tc/amp/helper-frame?appId=4745a81e-fd18-4051-9c38-aaf66a522a1c"
-    permission-dialog-url="https://saltypeak.os.tc/amp/permission-dialog?appId=4745a81e-fd18-4051-9c38-aaf66a522a1c" service-worker-url="https://saltypeak.os.tc/OneSignalSDKWorker.js?appId=4745a81e-fd18-4051-9c38-aaf66a522a1c"></amp-web-push>
+<amp-web-push 
+  id="amp-web-push" 
+  layout="nodisplay" 
+  helper-iframe-url="https://saltypeak.os.tc/amp/helper_frame?appId=4745a81e-fd18-4051-9c38-aaf66a522a1c"
+  permission-dialog-url="https://saltypeak.os.tc/amp/permission_dialog?appId=4745a81e-fd18-4051-9c38-aaf66a522a1c" 
+  service-worker-url="https://saltypeak.os.tc/OneSignalSDKWorker.js?appId=4745a81e-fd18-4051-9c38-aaf66a522a1c">
+</amp-web-push>
 
   <amp-web-push-widget visibility="unsubscribed" layout="fixed" width="250" height="80">
     <button on="tap:amp-web-push.subscribe">Subscribe to Notifications</button>
