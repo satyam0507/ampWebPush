@@ -1,0 +1,20 @@
+{
+  "name": "ampwebpush",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://satyam0507@bitbucket.org/satyam0507/ampwebpush.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/satyam0507/ampwebpush#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
