@@ -115,6 +115,19 @@
 </style>
   <script async custom-element="amp-web-push" src="https://cdn.ampproject.org/v0/amp-web-push-0.1.js"></script>
   <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+  <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(function() {
+      OneSignal.init({
+        appId: "662ce764-f61c-4d04-ac90-2785292e7ae5",
+        autoRegister: false,
+        notifyButton: {
+          enable: true,
+        },
+      });
+    });
+  </script>
 </head>
 
 <body>
